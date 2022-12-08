@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title> Reseller ( OBD ) </title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<!--bootstrap -->
+	<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/plugins/summernote/summernote.css" rel="stylesheet" />
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="../assets/plugins/material/material.min.css" />
+	<link rel="stylesheet" href="../assets/css/material_style.css" />
+	<!-- inbox style -->
+	<link href="../assets/css/pages/inbox.min.css" rel="stylesheet" type="text/css" />
+		<!-- steps -->
+	<link rel="stylesheet" href="../assets/plugins/steps/steps.css">
+	<!-- Theme Styles -->
+	<link href="../assets/css/theme/light/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="../assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/style.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/theme-color.css" rel="stylesheet" type="text/css" />
+	<!-- favicon -->
+	<style>
+	body{
+	background:url("../assets/img/Triangle.jpg");
+
+	}
+	</style>
+</head>
+<!-- END HEAD -->
+
+<body
+	class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
+	<div class="page-wrapper">
+		<!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+			<div class="page-header-inner ">
+				<!-- logo start -->
+				<div class="page-logo">
+					<!-- <a href="index.html">
+						<span class="logo-icon material-icons fa-rotate-45">school</span>
+						<span class="logo-default">Smart</span> </a> -->
+					<a href="index.html">
+					<!-- <span class="logo-icon material-icons fa-rotate-45" style="color: #212529;">school</span>
+					 -->
+					
+					 <span class="logo-default"><img alt="logo" class="header-brand-img main-logo" src="../assets/img/logo.png" style="cursor: default;">
+					</span>
+					</a>
+				</div>
+				<!-- logo end -->
+				<ul class="nav navbar-nav navbar-left in">
+					<li><a href="#" class="menu-toggler sidebar-toggler"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+				</ul>
+				
+				<div class="row">
+				   <div class="col-md-11">
+				    <div class="d-flex justify-content-center">
+						<div class="p-1 mt-1 bg-info mr-1 bor_rad"><p class="m-0 pro_s">AccountID: 10884</p></div>
+						<div class="p-1 mt-1 bg-warning mr-1 bor_rad"><p class="m-0 pro_s">Voice Promo Credit :480</p></div>
+						<div class="p-1 mt-1 bg-primary mr-1 bor_rad"><p class="m-0 pro_s">Voice Trans Credit :0</p></div>				
+					    <div class="p-1 mt-1 bg-info mr-1 bor_rad"><p class="m-0 pro_s">ChangePassword</p></div>
+						<div class="p-1 mt-1 bg-warning mr-1 bor_rad"><p class="m-0 pro_s">Welcome! Xenottabyte</p></div>
+					
+					</div>
+				   </div>
+				
+				
+				   <div class="col-md-1">
+				<div class="top-menu">
+				    
+					<ul class="nav navbar-nav pull-right">
+					    <li class="dropdown dropdown-user">
+						    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+								data-close-others="true">
+							<i class="fa fa-sign-in" aria-hidden="true" title="Login"></i>
+							</a>
+						</li>
+						<!-- end manage user dropdown -->
+						
+					</ul>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- end header -->
+	
+		<!-- start page container -->
+		<div class="page-container">
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
+							data-auto-scroll="true" data-slide-speed="200">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link nav-toggle"> 
+									<span class="title">Dashboard</span>
+								</a>
+							</li>
+							
+							
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/user.png"> -->
+									<span class="title">User</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<!-- <img alt="logo" class="icom_img" src="../assets/img/manage.png"> --> Manage
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="user_profile.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> User Profile</a>
+											</li>
+											<li class="nav-item">
+												<a href="user_master.html" class="nav-link">
+													<i class="fa fa-rss"></i> User Master</a>
+											</li>
+											<li class="nav-item">
+												<a href="user_onboarding.html" class="nav-link">
+													<i class="fa fa-hdd-o"></i> User OnBoarding</a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/sms.png"> -->
+									<span class="title">SMS</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Campaign
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_mycampaign.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Campaign</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Report
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_generate_report.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Generate Reports</a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_export_report.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Export Reports</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Request
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_request_senderid.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Request SenderId</a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_request_template.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Request Template</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Credit Allocation
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_credit_allocation.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Credit Allocation</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Phone Book
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_my_phoneBook.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My PhoneBook </a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_my_contacts.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Contacts </a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_create_contact_group.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Create Contact Group </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> BillPlan
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_bill_plan_history.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Bill Plan History </a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/obd.png"> -->
+									<span class="title">OBD</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Campaign
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_my_campaign.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Campaign</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Report
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_generate_reports.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Generate Reports</a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_export_reports.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Export Reports</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Request
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_sound_album.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Sound Album</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Credit Allocation
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_credit_allocation.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Credit Allocation</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Phone Book
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_my_phoneBook.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My PhoneBook </a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_my_contacts.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Contacts </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> BillPlan
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_bill_plan_history.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Bill Plan History </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Manage
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_allocate_service_no.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Allocate Service No </a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_user_map_with_custField.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> User Map With CustField </a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+                            <li class="nav-item">
+								<a href="ivr.html" class="nav-link nav-toggle">
+								<!-- <img alt="logo" class="icom_img" src="../assets/img/ivr.png"> -->
+									<span class="title"> IVRS</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="misscall.html" class="nav-link nav-toggle"><!--  <i class="material-icons">event</i> -->
+								<!-- <img alt="logo" class="icom_img" src="../assets/img/misscall.png"> -->
+									<span class="title">Missed Call</span>
+								</a>
+							</li>							
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end sidebar menu -->
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+				<!-- 	<div class="page-bar">
+						<div class="page-title-breadcrumb">
+							<div class=" pull-left">
+								<div class="page-title">Wizard</div>
+							</div>
+							<ol class="breadcrumb page-breadcrumb pull-right">
+								<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+										href="index.html">Home</a>&nbsp;<i class="fa fa-angle-right"></i>
+								</li>
+								<li class="active">Wizard</li>
+							</ol>
+						</div>
+					</div> -->
+				<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="card card-box">
+								<div class="card-head">
+									<header>User Profile</header>
+                                    <ol class="breadcrumb page-breadcrumb pull-right" style="font-size: 12px;">
+										<li><i class="fa fa-home"></i>&nbsp;<a class="parent-item" href="index.html" style="color:#fff">Dashboard</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">SMS</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">My Account</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">User Profile</a>
+										</li>
+										
+									</ol>									
+								</div>
+								<div class="card-body">
+								   	<div class="row">
+						                <div class="col-md-6">
+										    <div class="row">
+						                        <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="customername" class="col-sm-4 control-label">Customer Name</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="customername">
+														</div>
+													</div>											
+											    </div>	
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="usernmae" class="col-sm-4 control-label">User Name</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="usernmae" >
+														</div>
+													</div>											
+											    </div>	
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="mob" class="col-sm-4 control-label">Mobile No.</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="mob" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="email" class="col-sm-4 control-label">EmailId</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="email" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="validfrom" class="col-sm-4 control-label">Valid From</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="validfrom" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="validtill" class="col-sm-4 control-label">Valid Till</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="validtill" >
+														</div>
+													</div>											
+											    </div>
+
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="tpin" class="col-sm-4 control-label">TPIN</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="tpin">
+														</div>
+													</div>										
+											    </div>
+                    												
+											</div>
+											
+										</div>
+										<div class="col-md-6">
+										    <div class="row">
+						                        <div class="col-md-12">											  
+										            <div class="form-group row has-warning">
+														<label class="control-label col-md-4" for="inputWarning">Upload Logo</label>
+														<div class="col-md-8">
+															<input type="file" class="form-control" id="inputWarning">
+														</div>
+											        </div>
+											    </div>
+												<div class="col-md-12 text-center pt-3">
+												   <button type="submit" class="btn btn-primary"> Upload Logo </button>										   
+												   <button type="submit" class="btn btn-primary"> Enable Logo </button>
+												</div>
+											</div>
+											
+										</div>
+									</div>	 
+								    <div class="row">					
+										<div class="col-md-12 text-center pt-3">
+										   <button type="submit" class="btn btn-primary">Save</button>										   
+										  
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- wizard with validation-->
+					
+					
+					
+					<!-- Verticle Steps Wizard -->
+				
+				</div>
+			</div>
+			<!-- end page content -->
+			<!-- start chat sidebar -->
+			<div class="chat-sidebar-container" data-close-on-body-click="false">
+				<div class="chat-sidebar">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_1" class="nav-link active tab-icon" data-toggle="tab"> <i
+									class="material-icons">chat</i>Chat
+								<span class="badge badge-danger">4</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_3" class="nav-link tab-icon" data-toggle="tab"> <i
+									class="material-icons">settings</i>
+								Settings
+							</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<!-- Start User Chat -->
+						<div class="tab-pane active chat-sidebar-chat in active show" role="tabpanel"
+							id="quick_sidebar_tab_1">
+							<div class="chat-sidebar-list">
+								<div class="chat-sidebar-chat-users slimscroll-style" data-rail-color="#ddd"
+									data-wrapper-class="chat-sidebar-list">
+									<div class="chat-header">
+										<h5 class="list-heading">Online</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof3.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">John Deo</h5>
+												<div class="media-heading-sub">Spine Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">5</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof1.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Rajesh</h5>
+												<div class="media-heading-sub">Director</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof5.jpg"
+												width="35" height="35" alt="...">
+											<i class="away dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jacob Ryan</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-danger">8</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof4.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Kehn Anderson</h5>
+												<div class="media-heading-sub">CEO</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof2.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Sarah Smith</h5>
+												<div class="media-heading-sub">Anaesthetics</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof7.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Vlad Cardella</h5>
+												<div class="media-heading-sub">Cardiologist</div>
+											</div>
+										</li>
+									</ul>
+									<div class="chat-header">
+										<h5 class="list-heading">Offline</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-warning">4</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof6.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jennifer Maklen</h5>
+												<div class="media-heading-sub">Nurse</div>
+												<div class="media-heading-small">Last seen 01:20 AM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof8.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Lina Smith</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+												<div class="media-heading-small">Last seen 11:14 PM</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">9</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof9.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jeff Adam</h5>
+												<div class="media-heading-sub">Compounder</div>
+												<div class="media-heading-small">Last seen 3:31 PM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof10.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Anjelina Cardella</h5>
+												<div class="media-heading-sub">Physiotherapist</div>
+												<div class="media-heading-small">Last seen 7:45 PM</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End User Chat -->
+						<!-- Start Setting Panel -->
+						<div class="tab-pane chat-sidebar-settings" role="tabpanel" id="quick_sidebar_tab_3">
+							<div class="chat-sidebar-settings-list slimscroll-style">
+								<div class="chat-header">
+									<h5 class="list-heading">Layout Settings</h5>
+								</div>
+								<div class="chatpane inner-content ">
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Sidebar Position</div>
+											<div class="setting-set">
+												<select
+													class="sidebar-pos-option form-control input-inline input-sm input-small ">
+													<option value="left" selected="selected">Left</option>
+													<option value="right">Right</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Header</div>
+											<div class="setting-set">
+												<select
+													class="page-header-option form-control input-inline input-sm input-small ">
+													<option value="fixed" selected="selected">Fixed</option>
+													<option value="default">Default</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Footer</div>
+											<div class="setting-set">
+												<select
+													class="page-footer-option form-control input-inline input-sm input-small ">
+													<option value="fixed">Fixed</option>
+													<option value="default" selected="selected">Default</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">Account Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Notifications</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-1">
+														<input type="checkbox" id="switch-1" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Show Online</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-7">
+														<input type="checkbox" id="switch-7" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Status</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-2">
+														<input type="checkbox" id="switch-2" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">2 Steps Verification</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-3">
+														<input type="checkbox" id="switch-3" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">General Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Location</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-4">
+														<input type="checkbox" id="switch-4" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Save Histry</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-5">
+														<input type="checkbox" id="switch-5" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Auto Updates</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-6">
+														<input type="checkbox" id="switch-6" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end chat sidebar -->
+		</div>
+		<!-- end page container -->
+		<!-- start footer -->
+		<div class="page-footer">
+			<div class="page-footer-inner"> 2020 &copy; All right reserved By
+				<a href="https://www.vert-age.com/" target="_blanck" class="makerCss vert_age">Vert-Age</a>
+			</div>
+			<div class="scroll-to-top">
+				<i class="icon-arrow-up"></i>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!-- start js include path -->
+	<script src="../assets/plugins/jquery/jquery.min.js"></script>
+	<script src="../assets/plugins/popper/popper.js"></script>
+	<script src="../assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+	<script src="../assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+	<script src="../assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+	<!-- bootstrap -->
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- steps -->
+	<script src="../assets/plugins/steps/jquery.steps.js"></script>
+	<script src="../assets/js/pages/steps/steps-data.js"></script>
+	<!-- Common js-->
+	<script src="../assets/js/app.js"></script>
+	<script src="../assets/js/layout.js"></script>
+	<script src="../assets/js/theme-color.js"></script>
+	<!-- Material -->
+	<script src="../assets/plugins/material/material.min.js"></script>
+	<!-- end js include path -->
+</body>
+
+</html>

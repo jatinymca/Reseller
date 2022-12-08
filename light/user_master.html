@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title> Reseller ( OBD ) </title>
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" type="text/css" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<!--bootstrap -->
+	<link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/plugins/summernote/summernote.css" rel="stylesheet" />
+	<!-- Material Design Lite CSS -->
+	<link rel="stylesheet" href="../assets/plugins/material/material.min.css" />
+	<link rel="stylesheet" href="../assets/css/material_style.css" />
+	<!-- inbox style -->
+	<link href="../assets/css/pages/inbox.min.css" rel="stylesheet" type="text/css" />
+		<!-- steps -->
+	<link rel="stylesheet" href="../assets/plugins/steps/steps.css">
+	<!-- Theme Styles -->
+	<link href="../assets/css/theme/light/theme_style.css" rel="stylesheet" id="rt_style_components" type="text/css" />
+	<link href="../assets/css/plugins.min.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/style.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/responsive.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/css/theme/light/theme-color.css" rel="stylesheet" type="text/css" />
+	<link href="../assets/plugins/datatables/plugins/bootstrap/dataTables.bootstrap4.min.css" rel="stylesheet"
+		type="text/css" />
+
+	<style>
+	body{
+	background:url("../assets/img/Triangle.jpg");
+
+	}
+	</style>
+</head>
+<!-- END HEAD -->
+
+<body
+	class="page-header-fixed sidemenu-closed-hidelogo page-content-white page-md header-white white-sidebar-color logo-indigo">
+	<div class="page-wrapper">
+		<!-- start header -->
+		<div class="page-header navbar navbar-fixed-top">
+			<div class="page-header-inner ">
+				<!-- logo start -->
+				<div class="page-logo">
+					<!-- <a href="index.html">
+						<span class="logo-icon material-icons fa-rotate-45">school</span>
+						<span class="logo-default">Smart</span> </a> -->
+					<a href="index.html">
+					<!-- <span class="logo-icon material-icons fa-rotate-45" style="color: #212529;">school</span>
+					 -->
+					
+					 <span class="logo-default"><img alt="logo" class="header-brand-img main-logo" src="../assets/img/logo.png" style="cursor: default;">
+					</span>
+					</a>
+				</div>
+				<!-- logo end -->
+				<ul class="nav navbar-nav navbar-left in">
+					<li><a href="#" class="menu-toggler sidebar-toggler"><i class="fa fa-bars" aria-hidden="true"></i></a></li>
+				</ul>
+				
+				<div class="row">
+				   <div class="col-md-11">
+				    <div class="d-flex justify-content-center">
+						<div class="p-1 mt-1 bg-info mr-1 bor_rad"><p class="m-0 pro_s">AccountID: 10884</p></div>
+						<div class="p-1 mt-1 bg-warning mr-1 bor_rad"><p class="m-0 pro_s">Voice Promo Credit :480</p></div>
+						<div class="p-1 mt-1 bg-primary mr-1 bor_rad"><p class="m-0 pro_s">Voice Trans Credit :0</p></div>				
+					    <div class="p-1 mt-1 bg-info mr-1 bor_rad"><p class="m-0 pro_s">ChangePassword</p></div>
+						<div class="p-1 mt-1 bg-warning mr-1 bor_rad"><p class="m-0 pro_s">Welcome! Xenottabyte</p></div>
+					
+					</div>
+				   </div>
+				
+				
+				   <div class="col-md-1">
+				<div class="top-menu">
+				    
+					<ul class="nav navbar-nav pull-right">
+					    <li class="dropdown dropdown-user">
+						    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"
+								data-close-others="true">
+							<i class="fa fa-sign-in" aria-hidden="true" title="Login"></i>
+							</a>
+						</li>
+						<!-- end manage user dropdown -->
+						
+					</ul>
+				</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!-- end header -->
+	
+		<!-- start page container -->
+		<div class="page-container">
+			<!-- start sidebar menu -->
+			<div class="sidebar-container">
+				<div class="sidemenu-container navbar-collapse collapse fixed-menu">
+					<div id="remove-scroll" class="left-sidemenu">
+						<ul class="sidemenu  page-header-fixed slimscroll-style" data-keep-expanded="false"
+							data-auto-scroll="true" data-slide-speed="200">
+							<li class="sidebar-toggler-wrapper hide">
+								<div class="sidebar-toggler">
+									<span></span>
+								</div>
+							</li>
+							
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link nav-toggle"> 
+									<span class="title">Dashboard</span>
+								</a>
+							</li>
+							
+							
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/user.png"> -->
+									<span class="title">User</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<!-- <img alt="logo" class="icom_img" src="../assets/img/manage.png"> --> Manage
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="user_profile.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> User Profile</a>
+											</li>
+											<li class="nav-item">
+												<a href="user_master.html" class="nav-link">
+													<i class="fa fa-rss"></i> User Master</a>
+											</li>
+											<li class="nav-item">
+												<a href="user_onboarding.html" class="nav-link">
+													<i class="fa fa-hdd-o"></i> User OnBoarding</a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/sms.png"> -->
+									<span class="title">SMS</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Campaign
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_mycampaign.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Campaign</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Report
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_generate_report.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Generate Reports</a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_export_report.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Export Reports</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Request
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_request_senderid.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Request SenderId</a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_request_template.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Request Template</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Credit Allocation
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_credit_allocation.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Credit Allocation</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Phone Book
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_my_phoneBook.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My PhoneBook </a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_my_contacts.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Contacts </a>
+											</li>
+											<li class="nav-item">
+												<a href="sms_create_contact_group.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Create Contact Group </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> BillPlan
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="sms_bill_plan_history.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Bill Plan History </a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="javascript:void(0);" class="nav-link nav-toggle">
+									<!-- <img alt="logo" class="icom_img" src="../assets/img/obd.png"> -->
+									<span class="title">OBD</span>
+									<span class="arrow "></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Campaign
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_my_campaign.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Campaign</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Report
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_generate_reports.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Generate Reports</a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_export_reports.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Export Reports</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Request
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_sound_album.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Sound Album</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Credit Allocation
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_credit_allocation.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Credit Allocation</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Phone Book
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_my_phoneBook.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My PhoneBook </a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_my_contacts.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> My Contacts </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> BillPlan
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_bill_plan_history.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Bill Plan History </a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="javascript:void(0);" class="nav-link nav-toggle sub_parent">
+											<i class="fa fa-university"></i> Manage
+											<span class="arrow"></span>
+										</a>
+										<ul class="sub-menu">
+											
+											<li class="nav-item">
+												<a href="obd_allocate_service_no.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> Allocate Service No </a>
+											</li>
+											<li class="nav-item">
+												<a href="obd_user_map_with_custField.html" class="nav-link">
+													<i class="fa fa-file-pdf-o"></i> User Map With CustField </a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+                            <li class="nav-item">
+								<a href="ivr.html" class="nav-link nav-toggle">
+								<!-- <img alt="logo" class="icom_img" src="../assets/img/ivr.png"> -->
+									<span class="title"> IVRS</span>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a href="misscall.html" class="nav-link nav-toggle"><!--  <i class="material-icons">event</i> -->
+								<!-- <img alt="logo" class="icom_img" src="../assets/img/misscall.png"> -->
+									<span class="title">Missed Call</span>
+								</a>
+							</li>							
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- end sidebar menu -->
+			<!-- start page content -->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+				
+				<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="card card-box">
+								<div class="card-head">
+									<header>Manage User Profile</header>
+
+                                       <ol class="breadcrumb page-breadcrumb pull-right" style="font-size: 12px;">
+										<li><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;<a class="parent-item" href="index.html" style="color:#fff">Dashboard</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">SMS</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">My Account</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">User Profile</a>
+										</li>
+										
+									</ol>									
+								</div>
+								<div class="card-body">
+								   	<div class="row">
+						                
+										<div class="col-md-12">
+										   
+										    <div class="table-scrollable">
+															<div id="example4_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4 no-footer"><div class="row"><div class="col-sm-12 col-md-6"><div class="dataTables_length" id="example4_length"><label>Show <select name="example4_length" aria-controls="example4" class="form-control form-control-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div></div><div class="col-sm-12 col-md-6"><div id="example4_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="example4"></label></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-striped table-bordered table-hover table-checkable order-column valign-middle dataTable no-footer" id="example4" role="grid" aria-describedby="example4_info">
+																<thead>
+																	<tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-sort="ascending" aria-label=": activate to sort column descending" style="width: 40.2px;"></th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Name : activate to sort column ascending" style="width: 38.6px;"> Name </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Department : activate to sort column ascending" style="width: 77.8px;"> Department </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Gender : activate to sort column ascending" style="width: 49.8px;"> Gender </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Degree : activate to sort column ascending" style="width: 48.2px;"> Degree </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Mobile : activate to sort column ascending" style="width: 69.8px;"> Mobile </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Email : activate to sort column ascending" style="width: 114.6px;"> Email </th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label="Joining Date: activate to sort column ascending" style="width: 49.8px;">Joining Date</th><th class="sorting" tabindex="0" aria-controls="example4" rowspan="1" colspan="1" aria-label=" Action : activate to sort column ascending" style="width: 43.6px;"> Action </th></tr>
+																</thead>
+																<tbody>
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																	
+																<tr class="gradeX odd" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof1.jpg" alt="">
+																		</td>
+																		<td>Rajesh</td>
+																		<td class="left">Computer</td>
+																		<td class="left">Male</td>
+																		<td class="left">M.Com, B.Ed</td>
+																		<td><a href="tel:4444565756">
+																				4444565756 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				rajesh@gmail.com </a></td>
+																		<td class="left">22 Feb 2000</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX even" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof10.jpg" alt="">
+																		</td>
+																		<td>Pooja Patel</td>
+																		<td class="left">Mechanical</td>
+																		<td class="left">Female</td>
+																		<td class="left">M.E.</td>
+																		<td><a href="tel:444786876">
+																				444786876 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				pooja@gmail.com </a></td>
+																		<td class="left">27 Aug 2005</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX odd" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof2.jpg" alt="">
+																		</td>
+																		<td>Sarah Smith</td>
+																		<td class="left">Science</td>
+																		<td class="left">Female</td>
+																		<td class="left">B.Sc., M.Sc.</td>
+																		<td><a href="tel:44455546456">
+																				44455546456 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				sarah@gmail.com </a></td>
+																		<td class="left">05 Jun 2011</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX even" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof3.jpg" alt="">
+																		</td>
+																		<td>John Deo</td>
+																		<td class="left">Music</td>
+																		<td class="left">Male</td>
+																		<td class="left">B.A.</td>
+																		<td><a href="tel:444543564">
+																				444543564 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				john@gmail.com </a></td>
+																		<td class="left">15 Feb 2012</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX odd" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof4.jpg" alt="">
+																		</td>
+																		<td>Jay Soni</td>
+																		<td class="left">Mathematics</td>
+																		<td class="left">10</td>
+																		<td class="left">B.B.A., P.H.D.</td>
+																		<td><a href="tel:444543564">
+																				444543564 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				kenh@gmail.com </a></td>
+																		<td class="left">12 Nov 2012</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX even" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof5.jpg" alt="">
+																		</td>
+																		<td>Jacob Ryan</td>
+																		<td class="left">Computer</td>
+																		<td class="left">Male</td>
+																		<td class="left">B.E., M.E.</td>
+																		<td><a href="tel:444543564">
+																				444543564 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				johnson@gmail.com </a></td>
+																		<td class="left">03 Dec 2001</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX odd" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof6.jpg" alt="">
+																		</td>
+																		<td>Megha Trivedi</td>
+																		<td class="left">Mathematics</td>
+																		<td class="left">Female</td>
+																		<td class="left">M.COM, M.Ed.</td>
+																		<td><a href="tel:444543564">
+																				444543564 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				megha@gmail.com </a></td>
+																		<td class="left">17 Mar 2013</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX even" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof1.jpg" alt="">
+																		</td>
+																		<td>Rajesh</td>
+																		<td class="left">Computer</td>
+																		<td class="left">Male</td>
+																		<td class="left">M.Com, B.Ed</td>
+																		<td><a href="tel:4444565756">
+																				4444565756 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				rajesh@gmail.com </a></td>
+																		<td class="left">22 Feb 2000</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX odd" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof10.jpg" alt="">
+																		</td>
+																		<td>Pooja Patel</td>
+																		<td class="left">Mechanical</td>
+																		<td class="left">Female</td>
+																		<td class="left">M.E.</td>
+																		<td><a href="tel:444786876">
+																				444786876 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				pooja@gmail.com </a></td>
+																		<td class="left">27 Aug 2005</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr><tr class="gradeX even" role="row">
+																		<td class="patient-img sorting_1">
+																			<img src="../assets/img/prof/prof2.jpg" alt="">
+																		</td>
+																		<td>Sarah Smith</td>
+																		<td class="left">Science</td>
+																		<td class="left">Female</td>
+																		<td class="left">B.Sc., M.Sc.</td>
+																		<td><a href="tel:44455546456">
+																				44455546456 </a></td>
+																		<td><a href="mailto:shuxer@gmail.com">
+																				sarah@gmail.com </a></td>
+																		<td class="left">05 Jun 2011</td>
+																		<td>
+																			<a href="edit_professor.html" class="btn btn-primary btn-xs">
+																				<i class="fa fa-pencil"></i>
+																			</a>
+																			<button class="btn btn-danger btn-xs">
+																				<i class="fa fa-trash-o "></i>
+																			</button>
+																		</td>
+																	</tr></tbody>
+															</table></div></div><div class="row"><div class="col-sm-12 col-md-5"><div class="dataTables_info" id="example4_info" role="status" aria-live="polite">Showing 1 to 10 of 14 entries</div></div><div class="col-sm-12 col-md-7"><div class="dataTables_paginate paging_simple_numbers" id="example4_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="example4_previous"><a href="#" aria-controls="example4" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="example4" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item "><a href="#" aria-controls="example4" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class="paginate_button page-item next" id="example4_next"><a href="#" aria-controls="example4" data-dt-idx="3" tabindex="0" class="page-link">Next</a></li></ul></div></div></div></div>
+														</div>
+										   
+										   
+										   
+										   
+											
+										</div>
+									</div>	 
+								    <div class="row">					
+										<div class="col-md-12 text-center pt-3">
+										   <button type="submit" class="btn btn-primary">Save</button>										   
+										  
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+				</div>
+			
+				<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="card card-box">
+								<div class="card-head">
+									<header>User Details</header>
+
+                                       <ol class="breadcrumb page-breadcrumb pull-right" style="font-size: 12px;">
+										<li><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp;<a class="parent-item" href="index.html" style="color:#fff">Dashboard</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">SMS</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">My Account</a>&nbsp;<i class="fa fa-angle-right"></i>
+										</li>
+										<li><a class="parent-item" href="" style="color:#fff">User Profile</a>
+										</li>
+										
+									</ol>									
+								</div>
+								<div class="card-body">
+								   	<div class="row">
+						                <div class="col-md-4">
+										    <div class="row">
+						                        <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="checkbox1" class="col-sm-4 control-label">Enable User</label>
+														<div class="col-sm-8">
+															<input type="checkbox" class="form-control" id="checkbox1">
+														</div>
+													</div>											
+											    </div>	
+												
+												
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="usertype" class="col-sm-4 control-label">User Type</label>
+														<div class="col-sm-8">
+															<select class="form-control" name="department">
+																<option value="">Select User Type</option>
+																<option value="Category 1">Computer</option>
+																<option value="Category 2">Mechanical</option>
+																<option value="Category 3">Mathematics</option>
+																<option value="Category 4">Commerce</option>
+																<option value="Category 5">Music</option>
+																<option value="Category 6">Science</option>
+															</select>
+														</div>
+													</div>											
+											    </div>	
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="loginId" class="col-sm-4 control-label">Login ID</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="loginId" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="uesername" class="col-sm-4 control-label">User Name</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="uesername" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="pass" class="col-sm-4 control-label">Password</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="pass" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="conf_pass" class="col-sm-4 control-label">Conf Password</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="conf_pass" >
+														</div>
+													</div>											
+											    </div>
+
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="api_pass" class="col-sm-4 control-label">Api Password</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="api_pass">
+														</div>
+													</div>										
+											    </div>
+												  <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="acc_name" class="col-sm-4 control-label">Acc Mgr Name</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="acc_name">
+														</div>
+													</div>										
+											    </div>
+												  <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="bill_plan" class="col-sm-4 control-label">Bill Plan Type</label>
+														<div class="col-lg-8">
+															<select class="form-control select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+																<option value="">Select a state</option>
+																<optgroup label="Alaskan/Hawaiian Time Zone">
+																	<option value="AK">Alaska</option>
+																	<option value="HI">Hawaii</option>
+																</optgroup>
+																<optgroup label="Pacific Time Zone">
+																	<option value="CA">California</option>
+																	<option value="NV">Nevada</option>
+																	<option value="OR">Oregon</option>
+																	<option value="WA">Washington</option>
+																</optgroup>
+																<optgroup label="Mountain Time Zone">
+																	<option value="AZ">Arizona</option>
+																	<option value="CO">Colorado</option>
+																	<option value="ID">Idaho</option>
+																	<option value="MT">Montana</option>
+																	<option value="NE">Nebraska</option>
+																	<option value="NM">New Mexico</option>
+																	<option value="ND">North Dakota</option>
+																	<option value="UT">Utah</option>
+																	<option value="WY">Wyoming</option>
+																</optgroup>
+																<optgroup label="Central Time Zone">
+																	<option value="AL">Alabama</option>
+																	<option value="AR">Arkansas</option>
+																	<option value="IL">Illinois</option>
+																	<option value="IA">Iowa</option>
+																	<option value="KS">Kansas</option>
+																	<option value="KY">Kentucky</option>
+																	<option value="LA">Louisiana</option>
+																	<option value="MN">Minnesota</option>
+																	<option value="MS">Mississippi</option>
+																	<option value="MO">Missouri</option>
+																	<option value="OK">Oklahoma</option>
+																	<option value="SD">South Dakota</option>
+																	<option value="TX">Texas</option>
+																	<option value="TN">Tennessee</option>
+																	<option value="WI">Wisconsin</option>
+																</optgroup>
+																<optgroup label="Eastern Time Zone">
+																	<option value="CT">Connecticut</option>
+																	<option value="DE">Delaware</option>
+																	<option value="FL">Florida</option>
+																	<option value="GA">Georgia</option>
+																	<option value="IN">Indiana</option>
+																	<option value="ME">Maine</option>
+																	<option value="MD">Maryland</option>
+																	<option value="MA">Massachusetts</option>
+																	<option value="MI">Michigan</option>
+																	<option value="NH">New Hampshire</option>
+																	<option value="NJ">New Jersey</option>
+																	<option value="NY">New York</option>
+																	<option value="NC">North Carolina</option>
+																	<option value="OH">Ohio</option>
+																	<option value="PA">Pennsylvania</option>
+																	<option value="RI">Rhode Island</option>
+																	<option value="SC">South Carolina</option>
+																	<option value="VT">Vermont</option>
+																	<option value="VA">Virginia</option>
+																	<option value="WV">West Virginia</option>
+																</optgroup>
+															</select>
+															
+														</div>
+													</div>										
+											    </div>
+                    												
+											</div>
+											
+										</div>
+										 <div class="col-md-4">
+										    <div class="row">
+						                        <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="first_name" class="col-sm-4 control-label">First Name</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="first_name">
+														</div>
+													</div>											
+											    </div>	
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="last_name" class="col-sm-4 control-label">Last Name</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="last_name" >
+														</div>
+													</div>											
+											    </div>	
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="mob" class="col-sm-4 control-label">Mobile No.</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="mob" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="email" class="col-sm-4 control-label">EmailId</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="email" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="company_name" class="col-sm-4 control-label">Company Name</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="company_name" >
+														</div>
+													</div>											
+											    </div>
+												
+												
+												
+												 <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="checkbox1" class="col-sm-4 control-label">Enable API</label>
+														<div class="col-sm-8">
+															<input type="checkbox" class="form-control" id="checkbox1" checked>
+														</div>
+													</div>											
+											    </div>	
+
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="acc_emailid" class="col-sm-4 control-label">Acc Mgr EmailID</label>
+														<div class="col-sm-8">
+															<input type="text" class="form-control" id="acc_emailid">
+														</div>
+													</div>										
+											    </div>
+												
+												 <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="checkbox1" class="col-sm-4 control-label">Lock/Unlock</label>
+														<div class="col-sm-8">
+															<input type="checkbox" class="form-control" id="checkbox1">
+														</div>
+													</div>											
+											    </div>	
+												 <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="tpin" class="col-sm-4 control-label">Cust Field1</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="tpin">
+														</div>
+													</div>										
+											    </div>
+                    												
+											</div>
+											
+										</div>
+										 <div class="col-md-4">
+										    <div class="row">
+											    
+												
+												
+						                        <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="customername" class="col-sm-4 control-label">Valid From</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="customername">
+														</div>
+													</div>											
+											    </div>	
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="usernmae" class="col-sm-4 control-label">Valid Till</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="usernmae" >
+														</div>
+													</div>											
+											    </div>	
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="mob" class="col-sm-4 control-label">Address</label>
+														<div class="col-sm-8">
+															<textarea class="form-control" rows="3"></textarea>
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="email" class="col-sm-4 control-label">Desc</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="email" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="validfrom" class="col-sm-4 control-label">Acc Mgr PhoneNo</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="validfrom" >
+														</div>
+													</div>											
+											    </div>
+												
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="validtill" class="col-sm-4 control-label">Cust Field2</label>
+														<div class="col-sm-8">
+															<input type="email" class="form-control" id="validtill" >
+														</div>
+													</div>											
+											    </div>
+
+                                                <div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="tpin" class="col-sm-4 control-label">TelemarketingID</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="tpin">
+														</div>
+													</div>										
+											    </div>
+												<div class="col-md-12">																			
+													<div class="form-group row">
+														<label for="tpin" class="col-sm-4 control-label">EntityID</label>
+														<div class="col-sm-8">
+															<input type="password" class="form-control" id="tpin">
+														</div>
+													</div>										
+											    </div>
+                    												
+											</div>
+											
+										</div>
+									</div>	 
+								    <div class="row">					
+										<div class="col-md-12 text-center pt-3">
+										   <button type="submit" class="btn btn-primary">Save</button>										   
+										  
+										</div>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+				</div>
+					<!-- wizard with validation-->
+					
+					
+					
+					<!-- Verticle Steps Wizard -->
+				
+				</div>
+			</div>
+			<!-- end page content -->
+			<!-- start chat sidebar -->
+			<div class="chat-sidebar-container" data-close-on-body-click="false">
+				<div class="chat-sidebar">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_1" class="nav-link active tab-icon" data-toggle="tab"> <i
+									class="material-icons">chat</i>Chat
+								<span class="badge badge-danger">4</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="#quick_sidebar_tab_3" class="nav-link tab-icon" data-toggle="tab"> <i
+									class="material-icons">settings</i>
+								Settings
+							</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<!-- Start User Chat -->
+						<div class="tab-pane active chat-sidebar-chat in active show" role="tabpanel"
+							id="quick_sidebar_tab_1">
+							<div class="chat-sidebar-list">
+								<div class="chat-sidebar-chat-users slimscroll-style" data-rail-color="#ddd"
+									data-wrapper-class="chat-sidebar-list">
+									<div class="chat-header">
+										<h5 class="list-heading">Online</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof3.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">John Deo</h5>
+												<div class="media-heading-sub">Spine Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">5</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof1.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Rajesh</h5>
+												<div class="media-heading-sub">Director</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof5.jpg"
+												width="35" height="35" alt="...">
+											<i class="away dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jacob Ryan</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-danger">8</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof4.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Kehn Anderson</h5>
+												<div class="media-heading-sub">CEO</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof2.jpg"
+												width="35" height="35" alt="...">
+											<i class="busy dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Sarah Smith</h5>
+												<div class="media-heading-sub">Anaesthetics</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof7.jpg"
+												width="35" height="35" alt="...">
+											<i class="online dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Vlad Cardella</h5>
+												<div class="media-heading-sub">Cardiologist</div>
+											</div>
+										</li>
+									</ul>
+									<div class="chat-header">
+										<h5 class="list-heading">Offline</h5>
+									</div>
+									<ul class="media-list list-items">
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-warning">4</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof6.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jennifer Maklen</h5>
+												<div class="media-heading-sub">Nurse</div>
+												<div class="media-heading-small">Last seen 01:20 AM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof8.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Lina Smith</h5>
+												<div class="media-heading-sub">Ortho Surgeon</div>
+												<div class="media-heading-small">Last seen 11:14 PM</div>
+											</div>
+										</li>
+										<li class="media">
+											<div class="media-status">
+												<span class="badge badge-success">9</span>
+											</div> <img class="media-object" src="../assets/img/prof/prof9.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Jeff Adam</h5>
+												<div class="media-heading-sub">Compounder</div>
+												<div class="media-heading-small">Last seen 3:31 PM</div>
+											</div>
+										</li>
+										<li class="media"><img class="media-object" src="../assets/img/prof/prof10.jpg"
+												width="35" height="35" alt="...">
+											<i class="offline dot"></i>
+											<div class="media-body">
+												<h5 class="media-heading">Anjelina Cardella</h5>
+												<div class="media-heading-sub">Physiotherapist</div>
+												<div class="media-heading-small">Last seen 7:45 PM</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- End User Chat -->
+						<!-- Start Setting Panel -->
+						<div class="tab-pane chat-sidebar-settings" role="tabpanel" id="quick_sidebar_tab_3">
+							<div class="chat-sidebar-settings-list slimscroll-style">
+								<div class="chat-header">
+									<h5 class="list-heading">Layout Settings</h5>
+								</div>
+								<div class="chatpane inner-content ">
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Sidebar Position</div>
+											<div class="setting-set">
+												<select
+													class="sidebar-pos-option form-control input-inline input-sm input-small ">
+													<option value="left" selected="selected">Left</option>
+													<option value="right">Right</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Header</div>
+											<div class="setting-set">
+												<select
+													class="page-header-option form-control input-inline input-sm input-small ">
+													<option value="fixed" selected="selected">Fixed</option>
+													<option value="default">Default</option>
+												</select>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Footer</div>
+											<div class="setting-set">
+												<select
+													class="page-footer-option form-control input-inline input-sm input-small ">
+													<option value="fixed">Fixed</option>
+													<option value="default" selected="selected">Default</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">Account Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Notifications</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-1">
+														<input type="checkbox" id="switch-1" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Show Online</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-7">
+														<input type="checkbox" id="switch-7" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Status</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-2">
+														<input type="checkbox" id="switch-2" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">2 Steps Verification</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-3">
+														<input type="checkbox" id="switch-3" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="chat-header">
+										<h5 class="list-heading">General Settings</h5>
+									</div>
+									<div class="settings-list">
+										<div class="setting-item">
+											<div class="setting-text">Location</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-4">
+														<input type="checkbox" id="switch-4" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Save Histry</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-5">
+														<input type="checkbox" id="switch-5" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="setting-item">
+											<div class="setting-text">Auto Updates</div>
+											<div class="setting-set">
+												<div class="switch">
+													<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+														for="switch-6">
+														<input type="checkbox" id="switch-6" class="mdl-switch__input"
+															checked>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end chat sidebar -->
+		</div>
+		<!-- end page container -->
+		<!-- start footer -->
+		<div class="page-footer">
+			<div class="page-footer-inner"> 2020 &copy; All right reserved By
+				<a href="https://www.vert-age.com/" target="_blanck" class="makerCss vert_age">Vert-Age</a>
+			</div>
+			<div class="scroll-to-top">
+				<i class="icon-arrow-up"></i>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!-- start js include path -->
+	<script src="../assets/plugins/jquery/jquery.min.js"></script>
+	<script src="../assets/plugins/popper/popper.js"></script>
+	<script src="../assets/plugins/jquery-blockui/jquery.blockui.min.js"></script>
+	<script src="../assets/plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+	<script src="../assets/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+	<!-- bootstrap -->
+	<script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<!-- data tables -->
+	<script src="../assets/plugins/datatables/jquery.dataTables.min.js"></script>
+	<script src="../assets/plugins/datatables/plugins/bootstrap/dataTables.bootstrap4.min.js"></script>
+		<script src="../assets/js/pages/table/table_data.js"></script>
+	<!-- steps -->
+	<script src="../assets/plugins/steps/jquery.steps.js"></script>
+	<script src="../assets/js/pages/steps/steps-data.js"></script>
+	<!-- Common js-->
+	<script src="../assets/js/app.js"></script>
+	<script src="../assets/js/layout.js"></script>
+	<script src="../assets/js/theme-color.js"></script>
+	<!-- Material -->
+	<script src="../assets/plugins/material/material.min.js"></script>
+	    <!-- dropzone -->
+    <script src="../assets/plugins/dropzone/dropzone.js"></script>
+	<!-- end js include path -->
+</body>
+
+</html>
